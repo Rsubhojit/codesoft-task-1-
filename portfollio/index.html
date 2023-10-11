@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            body{
+                background-color: rgb(0,0,33);
+                color: white;
+                font-family: 'Poppins', sans-serif;
+            }
+            nav{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                height: 80px;
+                background-color: rgb(18,18,62);
+            }
+            nav ul{
+                display: flex;
+                justify-content: center;
+            }
+            nav ul li{
+                list-style: none;
+                margin: 0 23px;
+            }
+            nav ul li a{
+                text-decoration: none;
+                color: white;
+            }
+            nav ul li a:hover{
+                color: rgb(153,153,226);
+                font-size: 1.25rem;
+            }
+            main hr{
+                border: 0;
+                background: #9c97f1;
+                height: 1.2px;
+                margin: 60px 84px;
+            }
+            .left{
+                font-size: 2rem;
+            }
+            .firstSection{
+                display: flex;
+                justify-content: space-around;
+                margin: 120px 0;
+            }
+            .firstSection>div{
+                width: 30%;
+            }
+            .leftSection{
+                font-size: 3rem;
+                margin: 30px 0;
+            }
+            .leftSection .buttons{
+                padding: 23px;
+            }
+            .leftSection .btn{
+                padding: 12px;
+                background: #1e2167;
+                color: white;
+                border: 2px solid white;
+                border-radius: 6px;
+                font-size: 20px;
+                cursor: pointer;
+            }
+            .rightSection{
+                margin: -45px;
+            }
+            .purple{
+                color: rgb(183, 139, 225);
+            }
+            .text-grey{
+                color: gray;
+            }
+            #element{
+                color: rgb(183, 139, 225);
+            }
+            .secondSection{
+                max-width: 80vw;
+                margin: auto;
+                height: 80vh;
+            }
+            .secondSection h1{
+                font-size: 1.9rem;
+            }
+            .secondSection .box{
+                background: white;
+                width: 82vw;
+                height: 2px;
+                margin: 56px 0;
+                display: flex;
+            }
+            .secondSection .vertical{
+                height: 93px;
+                width: 1px;
+                background-color: white;
+                margin: 0 200px;
+            }
+            .image-top{
+                width: 100px;
+                position: relative;
+                top: -50px;
+                left: -50px;
+            }
+            .vertical-title{
+                position: relative;
+                top: 40px;
+                width: 150px;
+            }
+            .vertical-desc{
+                position: relative;
+                top: 40px;
+                color: gray;
+                font-size: 15px;
+                width: 150px;
+            }
+            .image-top2{
+                width: 102px;
+                position: relative;
+                top: -50px;
+                left: -50px;
+                height: 45px;
+            }
+            .vertical-desc2{
+                position: relative;
+                top: 140px;
+                color: gray;
+                font-size: 15px;
+                width: 150px;
+                left: -200px;
+            }
+            .image-top3{
+                width: 102px;
+                position: relative;
+                top: -50px;
+                left: -50px;
+                height: 45px;
+            }
+            .vertical-desc3{
+                position: relative;
+                top: 115px;
+                color: gray;
+                font-size: 15px;
+                width: 150px;
+                left: -200px;
+            }
+            footer{
+                background-color: #0e0e1a;
+            }
+            .footer{
+                display: flex;
+                padding: 23px 122px;
+                justify-content: space-evenly;
+            }
+            .footer ul{
+                list-style: none;
+            }
+            .footer > div{
+                width: 123px;
+            }
+            footer .footer-rights{
+                text-align: center;
+                color: gray;
+                padding: 12px 0;
+            }
+            .rightSection img{
+                height: 450px;
+                width: 450px;
+                border-radius: 50%;
+                border: 10px solid #fff;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="left">Subhojit's Portfolio</div>
+                <div class="right">
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/">About</a></li>
+                        <li><a href="/">Services</a></li>
+                        <li><a href="/">Projects</a></li>
+                        <li><a href="/">Contact Me</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section class="firstSection">
+                <div class="leftSection">
+                    Hi, My name is <span class="purple">Subhojit</span>
+                    <div>and I am a </div> 
+                    <span id="element"></span>
+                    <div class="buttons">
+                        <button class="btn">Download Resume</button>
+                        <button class="btn">Linkdin Profile</button>
+                    </div>
+                </div>
+                <div class="rightSection">
+                    <img src="https://media.licdn.com/dms/image/D4E03AQHEa3IRHKBuSA/profile-displayphoto-shrink_800_800/0/1694847244081?e=1702512000&v=beta&t=inltLLShxP__IhfA8WxeC2h8FrT1pmSc3ULpEPez52c" alt="web3" height="400" width="500">
+                </div>
+            </section>
+            <hr>
+            <section class="secondSection">
+                <span class="text-grey">What i have done so far</span>
+            <h1>Educational Qualification</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="https://kamarpukur.rkmm.org/Slides/Slides%20Kamarpukur/School%20Slider.jpg" alt="">
+                    <div class="vertical-title">
+                        Secondary(2015-2020)
+                    </div>
+                    <div class="vertical-desc">
+                        I completed  my Secondary Education from Kamarpukur Ramakrishna Mission Multipurpose School with 90.71 percent marks.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top2" src="https://directory.edugorilla.com/wp-content/uploads/sites/6/2018/06/7cc11926ede7364576d7d05c90ca65c7-1024x768.jpeg" alt="">
+                    <div class="vertical-title">
+                        Higher Secondary(2020-2022)
+                    </div>
+                </div>
+                <div class="vertical-desc2">
+                    I completed my Higher Secondary Education from Arambagh High School with 94.4 percent marks.
+                </div>
+                <div class="vertical">
+                    <img class="image-top3" src="https://media.getmyuni.com/azure/college-image/big/university-of-engineering-and-management-uem-kolkata.jpg" alt="">
+                    <div class="vertical-title">
+                        B.tech(2022-2026)
+                    </div>
+                </div>
+                <div class="vertical-desc3">
+                    I am pursuing my B.tech degree from University of Engineering & Management,Kolkata.
+                </div>
+            </div>
+            </section>
+        </main>
+        <footer>
+            <div class="footer">
+                <div class="footer-first">
+                    <h3>Subhojit's Portfolio</h3>
+                </div>
+                <div class="footer-second">
+                    <ul>
+                        <li>Home</li>
+                    </ul>
+                </div>
+                <div class="footer-third">
+                    <ul>
+                        <li>About</li>
+                    </ul>
+                </div>
+                <div class="footer-fourth">
+                    <ul>
+                        <li>Contact:</li>
+                        <li>9800430460</li>
+                        <li>rsubhojit59@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-rights">
+                www.subhojitsportfolio.com | Thank you for visiting
+            </div>
+        </footer>
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <script>
+            var typed = new Typed('#element', {
+              strings: ['Software Engineer','Web Developer','Ethical Hacker'],
+              typeSpeed: 50,
+            });
+          </script>
+    </body>
+</html>
